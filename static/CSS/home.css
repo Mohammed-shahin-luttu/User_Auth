@@ -1,0 +1,38 @@
+.full-height {
+  min-height: 100vh; 
+  background-image: url('/static/images/beckham_background.png');
+  display: flex;
+  background-repeat: no-repeat;   
+  background-size: cover;          
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+.center-box {
+  max-width: 400px;
+  padding: 50px;
+  background-color: #fdda24; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #0033a0; 
+  
+}
+h3{
+  color: #0033a0;
+}
+.btn-primary {
+  margin-left:20px;
+  background-color: #0033a0; 
+  border-color: #0033a0;
+  color: #fdda24;
+}
+.btn-primary:hover {
+  background-color: #fdda24; 
+  color: #0033a0;
+  border-color: #fdda24;
+}
+.us{
+  color:red;
+}
